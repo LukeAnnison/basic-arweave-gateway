@@ -1,23 +1,17 @@
-mod graphql;
-use graphql::graphql_handler;
-use axum::{
-    Router,
-    routing::get
-};
-use reqwest::Url;
-
-
-
+use permafacts::PermafactsServer;
 
 #[tokio::main]
 async fn main() {
-    // Create a new Axum router
-    let app = Router::new().route("/", get(graphql_handler));
+    let server = PermafactsServer::new();
 
-    // Start the server
-    axum::Server::bind(&"0.0.0.0:3000".parse().unwrap())
-        .serve(app.into_make_service())
-        .await
-        .unwrap();
+    // Spawn the server task and keep the JoinHandle so that the server keeps running
+    let server_task = tokio::spawn(async move {
+        server.run().await;
+    });
+
+    // Wait for the server task to complete (which will never happen, since the server runs indefinitely)
+    if let Err(err) = server_task.await {
+        eprintln!("Server task failed: {:?}", err);
+    }
 
 }

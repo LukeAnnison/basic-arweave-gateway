@@ -1,0 +1,11 @@
+/Users/lukeannison/projects/permafacts/api-server/graphql/target/debug/deps/base64-bc8354d2ddcdd0ae.rmeta: /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/lib.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/chunked_encoder.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/display.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/line_wrap.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/tables.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/encode.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/decode.rs
+
+/Users/lukeannison/projects/permafacts/api-server/graphql/target/debug/deps/base64-bc8354d2ddcdd0ae.d: /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/lib.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/chunked_encoder.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/display.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/line_wrap.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/tables.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/encode.rs /Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/decode.rs
+
+/Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/lib.rs:
+/Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/chunked_encoder.rs:
+/Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/display.rs:
+/Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/line_wrap.rs:
+/Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/tables.rs:
+/Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/encode.rs:
+/Users/lukeannison/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/decode.rs:

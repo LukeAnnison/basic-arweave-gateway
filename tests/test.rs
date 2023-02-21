@@ -2,10 +2,13 @@
 mod tests {
     use super::*;
     use axum::extract::Extension;
-    use axum::http::{Request, Response};
+    use axum::http::{Request, Response, StatusCode};
+    use axum::body::Body;
     use axum::routing::get;
-    use http::StatusCode;
+    use axum::Router;
+    use rocket::http::uri::Uri;
     use serde_json::json;
+    use crate::
 
     // Test that the GraphQL handler returns a successful response
     #[tokio::test]

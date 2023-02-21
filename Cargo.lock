@@ -82,6 +82,7 @@ dependencies = [
  "json",
  "juniper 0.15.11",
  "juniper_rocket",
+ "permafacts",
  "pretend",
  "reqwest",
  "rocket",
@@ -1263,6 +1264,24 @@ name = "percent-encoding"
 version = "2.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "478c572c3d73181ff3c2539045f6eb99e5491218eae919370993b890cdbdd98e"
+
+[[package]]
+name = "permafacts"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "json",
+ "juniper 0.15.11",
+ "juniper_rocket",
+ "pretend",
+ "reqwest",
+ "rocket",
+ "serde",
+ "serde_json",
+ "thiserror",
+ "tokio",
+ "tower",
+]
 
 [[package]]
 name = "pin-project"
